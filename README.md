@@ -8,4 +8,4 @@ uuid_list.txt in the same directory as altConversion.rb
 
 Dependencies:
 rubygems
-JSON package (to install, run `gem install JSON` in a command line or `sudo gem install JSON` depending on your ruby installation)
+JSON package (to install, run `gem install json` in a command line or `sudo gem install json` depending on your ruby installation)
