@@ -34,7 +34,7 @@ if (alt_list != nil)
 
 				profile = JSON.parse(response.body)
 
-				if profile['profiles'][0]['id'] != nil
+				unless profile['profiles'].empty?
 					linked_uuids << profile['profiles'][0]['id']
 					puts "#{account} : #{profile['profiles'][0]['id']}"
 				end
