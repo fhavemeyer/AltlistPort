@@ -5,3 +5,7 @@ Running:
 
 Output:
 uuid_list.txt in the same directory as altConversion.rb
+
+Dependencies:
+rubygems
+JSON package (to install, run `gem install JSON` in a command line)
